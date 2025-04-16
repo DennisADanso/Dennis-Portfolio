@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dennis Danso</h1>
+        <p>Web Developer | Designer | Programmer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="images/profile.jpg" alt="Profile Picture" width="200">
+            <p>Hey! I'm Dennis, a dedicated web developer with a passion for creating sleek, user-friendly websites. I have a background in computer science and experience working with both frontend and backend technologies. I'm always eager to learn new tools and collaborate on exciting projects. When I'm not coding, I enjoy photography and exploring new tech trends. My goal is to build solutions that are both beautiful and functional..</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Portfolio Website</strong> - A personal website to showcase my work and skills.</li>
+                <li><strong>Task Manager App</strong> - A web app for managing daily tasks with notifications.</li>
+                <li><strong>Blog Platform</strong> - A content management system for personal blogging.</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to collaborate, click the button below:</p>
+            <button class="button" onclick="showContactMessage()">Get In Touch</button>
+            <p id="contactMessage"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
